@@ -2,19 +2,53 @@
 font-family: 'Montserrat', sans-serif; */
 
 body {
-    background-color: pink;
+    background-color:#DAFCFF;
 }
 
 h1 {
-    font-family: 'Montserrat Subrayada', sans-serif;
-    color: purple;
+    font-family: 'Montserrat', sans-serif;
+    color: #3B3B3B;
     text-align: center;
-    font-size: 72px;
+    font-size: 50px;
+    font-weight: 900;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
-    color: purple;
-    font-size: 56px;
+    color: #3B3B3B;
+    font-size: 20px;
     text-align: center;
+    font-weight: 400;
+}
+
+a {
+    color: #00A8EE;
+    transition: all ease-in-out .25s;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:hover {
+    color: #9A9A9A;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .images {
+       width: 100%;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 14px;
+    }
 }
